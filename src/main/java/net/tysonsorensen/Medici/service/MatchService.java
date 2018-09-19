@@ -139,8 +139,8 @@ public class MatchService {
         }
       }
     }
-    buyRepository.saveAll(buys.stream().filter(b -> b.getQuantity() > 0).collect(Collectors.toList()));
-    sellRepository.saveAll(sells.stream().filter(s -> s.getQuantity() > 0).collect(Collectors.toList()));
+    buyRepository.saveAll(buys);
+    sellRepository.saveAll(sells);
   }
 
 }
