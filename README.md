@@ -25,10 +25,17 @@ Just run all unit tests:
 ```
 
 A test script is in the root directory:
+```
 test.sh
-This runs a series of curl commands and outputs the results.
+```
+This runs a series of curl commands and outputs the results. (output is a bit ugly)
 
 ## Deployment
+
+Running from code with gradle:
+```
+./gradlew bootRun
+```
 
 Create a Bootable jar:
 ```
